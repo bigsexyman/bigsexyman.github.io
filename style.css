@@ -1,0 +1,19 @@
+body {
+    background-image: url("cool\ shark\ toy 2.png");
+    
+}
+
+@keyframes example {
+    0% {color: red;}
+    50% {color: blue;}
+    100%{color:red;}
+  }
+  
+
+  body {
+
+    color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2000000;
+  }
